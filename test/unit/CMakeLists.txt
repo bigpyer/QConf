@@ -60,6 +60,8 @@ include_directories(
     ${MANAGER_SOURCE_DIR}
     ${ZK_SOURCE_DIR}/include/zookeeper
     ${GTEST_SOURCE_DIR}/include
+    ${GDBM_SOURCE_DIR}/include
+    ${CURL_SOURCE_DIR}/include
     )
 
 aux_source_directory(${BASE_SOURCE_DIR} DIR_SRCS)

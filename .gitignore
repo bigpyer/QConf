@@ -1,0 +1,11 @@
+*.log
+*.swp
+*.tmp
+tags
+*cache*
+.tags*
+*node*
+.DS_Store
+*.o
+bin
+build
